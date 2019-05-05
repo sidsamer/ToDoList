@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="create_btn">Create</string>
+    <string name="update_btn">Update</string>
+    <string name="remove_btn">Remove</string>
+    <string name="done_btn">Change Task Status</string>
+    <string name="alarm_btn">Add Alarm</string>
+    <string name="text">New task</string>
+    <string name="date">Select Date</string>
+    <string name="time">Select Time</string>
+    <string name="spinner">Sort by</string>
+
+    <string-array name="SortStyle">
+        <item>Sooner</item>
+        <item>Later</item>
+    </string-array>
+</resources>

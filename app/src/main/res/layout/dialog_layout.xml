@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myDialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+
+    <EditText
+        android:id="@+id/TextObjdia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text"
+        android:inputType="textMultiLine"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/timeObjdia"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/time"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/dateObjdia"
+        android:layout_width="144dp"
+        android:layout_height="40dp"
+        android:hint="@string/date"
+        android:ems="10"
+        android:text="" />
+
+    <Button
+        android:id="@+id/updateBtndia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_btn"/>
+
+    <Button
+        android:id="@+id/removeBtndia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_btn"/>
+
+    <Button
+    android:id="@+id/doneBtndia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/done_btn"/>
+    <Button
+        android:id="@+id/alarmBtndia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_btn"/>
+
+</LinearLayout>

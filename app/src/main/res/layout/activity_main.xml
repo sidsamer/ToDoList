@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp">
+
+        <EditText
+            android:id="@+id/TextObj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/text"
+            android:inputType="textMultiLine"
+            android:text=""
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <TextView
+            android:id="@+id/dateObj"
+            android:layout_width="144dp"
+            android:layout_height="40dp"
+            android:hint="@string/date"
+            android:ems="10"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/timeObj"
+            android:layout_width="145dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="@string/time"
+            android:text="" />
+
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_btn"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="164dp" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/SortStyle"
+            android:prompt="@string/spinner"/>
+        <ListView
+            android:id="@+id/Task_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
